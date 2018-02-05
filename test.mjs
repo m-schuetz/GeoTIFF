@@ -36,8 +36,8 @@ Uint8Array.prototype.inspect = function(){
 
 { // TEST WRITER
 	let image = new GeoTIFF.Image();
-	image.width = 20;
-	image.height = 10;
+	image.width = 800;
+	image.height = 600;
 	image.buffer = new Uint8Array(image.width * image.height * 4);
 
 	for(let y = 0; y < image.height; y++){
