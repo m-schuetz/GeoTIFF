@@ -1,0 +1,12 @@
+{
+	"name": "GeoTIFF",
+	"version": "1.0.0",
+	"description": "",
+	"main": "GeoTIFF.js",
+	"dependencies": {},
+	"devDependencies": {
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT"
+}
