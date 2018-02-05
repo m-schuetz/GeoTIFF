@@ -73,7 +73,7 @@ Uint8Array.prototype.inspect = function(){
 			new GeoTIFF.IFDEntry(
 				GeoTIFF.Tag.GEO_DOUBLE_PARAMS, 
 				GeoTIFF.Type.DOUBLE, 4, null, 
-				new Uint16Array([ -117.333333333333, 33.75, 0, 0 ])),
+				new Float64Array([ -117.333333333333, 33.75, 0, 0 ])),
 			new GeoTIFF.IFDEntry(
 				GeoTIFF.Tag.GEO_ASCII_PARAMS, 
 				GeoTIFF.Type.ASCII, 15, null, 
