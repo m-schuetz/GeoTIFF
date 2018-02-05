@@ -34,7 +34,7 @@ Uint8Array.prototype.inspect = function(){
 	}
 }
 
- { // TEST WRITER
+{ // TEST WRITER
 	let image = new GeoTIFF.Image();
 	image.width = 20;
 	image.height = 10;
@@ -90,4 +90,4 @@ Uint8Array.prototype.inspect = function(){
 			}
 		});
 	}
- }
+}
